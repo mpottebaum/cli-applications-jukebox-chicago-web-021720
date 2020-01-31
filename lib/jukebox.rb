@@ -16,5 +16,7 @@ end
 def play(song_list)
   puts "Please enter a song name or number:"
   user_input = gets.strip
-  song_list.detect do |
+  song_list.each_with_index do |title, index|
+    
+  end
 end
