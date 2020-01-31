@@ -7,7 +7,14 @@ def help
 end
 
 def list(song_list)
-  song_list.each do
-    
+  song_list.each_with_index do |title, index|
+    song_number = index + 1
+    puts "#{song_number}. #{title}"
   end
+end
+
+def play(song_list)
+  puts "Please enter a song name or number:"
+  user_input = gets.strip
+  song_list.
 end
