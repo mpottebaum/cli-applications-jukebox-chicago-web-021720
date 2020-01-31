@@ -7,5 +7,7 @@ def help
 end
 
 def list(song_list)
-  
+  song_list.each do
+    
+  end
 end
