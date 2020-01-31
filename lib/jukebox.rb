@@ -34,6 +34,7 @@ def run(song_list)
   puts "Please enter a command:"
   user_input = gets.strip
   until user_input == "exit"
+    
     user_input = gets.strip
   end
   exit_jukebox
